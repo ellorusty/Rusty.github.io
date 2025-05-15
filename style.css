@@ -47,6 +47,33 @@ html {
     animation: fadeInUp 1s ease-in-out;
     color: #fff;
   }
+  #portrait {
+    display:flex;
+    justify-content:center;
+  }
+  .social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  width: 3rem;
+  height: 3rem;
+  color: yellow; /* or yellow if you want to match your theme */
+  font-size: 1.5rem;
+  border: 0.2rem solid yellow;
+  margin: 5px 1rem 5px 0;
+  border-color: transparent;
+  border-radius: 50%;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #FFD700; /* Yellow color on hover */
+  transform: scale(1.2);
+}
 
   .container {
     display: flex;
