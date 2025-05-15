@@ -55,6 +55,9 @@ html {
     align-items: center;
     gap: 30px;
   }
+  #contact {
+  display: block; 
+  }
 
   .profile-pic {
     width: 200px;
@@ -160,6 +163,9 @@ html {
     }
   }
   h1 {
+    text-align: center;
+  }
+  h2 {
     text-align: center;
   }
   
