@@ -47,7 +47,7 @@ html {
     animation: fadeInUp 1s ease-in-out;
     color: #fff;
   }
-  #portrait {
+  #home {
     display:flex;
     justify-content:center;
   }
