@@ -146,8 +146,8 @@ header {
 
 /* ========== Profile Section ========== */
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin-bottom: var(--spacing-md);
   border: 3px solid var(--primary-color);
@@ -224,6 +224,7 @@ header {
 /* ========== Certificates Section ========== */
 .slider {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--spacing-md);
   overflow-x: auto;
   padding: var(--spacing-sm);
