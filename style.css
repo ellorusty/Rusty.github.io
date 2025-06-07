@@ -247,6 +247,12 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    .animated-intro {
+      font-size: 1em;
+    }
+  
+
   .nav {
     display: none;
     flex-direction: column;
@@ -413,6 +419,22 @@ nav {
 @keyframes blink {
   0%, 100% { border-color: transparent; }
   50% { border-color: #cc0000; }
+}
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* para mag-break pag maliit na screen */
+}
+@media (max-width: 768px) {
+  nav ul {
+    gap: 20px;
+    font-size: 14px; /* smaller size for mobile */
+  }
+
+  nav ul li {
+    padding: 5px 10px;
+  }
 }
 
 
